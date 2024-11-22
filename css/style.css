@@ -1,0 +1,28 @@
+/* Animasi Floating */
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px); /* Naik */
+    }
+    100% {
+        transform: translateY(0px); /* Turun */
+    }
+}
+
+/* Terapkan Animasi pada Gambar */
+.floating-image {
+    animation: floating 3s ease-in-out infinite;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Opsional: Efek saat Hover */
+.floating-image:hover {
+    transform: scale(1.05); /* Sedikit membesar */
+}
+
+/* Warna hover untuk item navbar */
+.navbar-nav .nav-link:hover {
+    color: #FFD700; /* Warna kuning keemasan saat hover */
+}

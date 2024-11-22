@@ -1,0 +1,10 @@
+html, body {
+    height: 100%; /* Pastikan halaman memenuhi viewport */
+    margin: 0; /* Hapus margin default */
+    display: flex;
+    flex-direction: column; /* Flexbox vertikal */
+}
+
+footer {
+    margin-top: auto; /* Dorong footer ke bawah */
+}
